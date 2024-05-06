@@ -14,14 +14,14 @@ function repeat(count, callback) {
     }
 }
 
-repeat(5, function(idx) {
+repeat(5, (idx) => {
     console.log(idx);
 });
 
-repeat(5, function(idx) {
+repeat(5, (idx) => {
     console.log(idx * 2);
 });
 
-repeat(5, function(idx) {
+repeat(5, (idx) => {
     console.log(idx * 3);
 });
